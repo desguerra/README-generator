@@ -123,7 +123,8 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo? (required)',
+        message: 'What does the user need to know about contributing to the repo?',
+        default: 'Please do. It is much appreciated.',
         validate: input => {
             if (input) {
                 return true;

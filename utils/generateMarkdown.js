@@ -5,7 +5,20 @@ function renderLicenseBadge(license) {
         return '';
     }
 
-    return `license badge`;
+    if (license === 'MIT') {
+        var badge = 'https://img.shields.io/badge/license-MIT-pink';
+    }
+    else if (license === 'APACHE 2.0') {
+        var badge = 'https://img.shields.io/badge/license-Apache%202.0-pink';
+    }
+    else if (license === 'GPL 3.0') {
+        var badge = 'https://img.shields.io/badge/license-GPL%203.0-pink';
+    }
+    else if (license === 'BSD 3') {
+        var badge = 'https://img.shields.io/badge/license-BSD%203-pink';
+    }
+
+    return `![GitHub License Badge](${badge})`;
 };
 
 // TODO: Create a function that returns the license link
@@ -14,8 +27,21 @@ function renderLicenseLink(license) {
     if (!license) {
         return '';
     }
+    
+    if (license === 'MIT') {
+        var link = 'https://choosealicense.com/licenses/mit/';
+    }
+    else if (license === 'APACHE 2.0') {
+        var link = 'https://choosealicense.com/licenses/apache-2.0/';
+    }
+    else if (license === 'GPL 3.0') {
+        var link = 'https://choosealicense.com/licenses/gpl-3.0/';
+    }
+    else if (license === 'BSD 3') {
+        var link = 'https://choosealicense.com/licenses/bsd-3-clause/';
+    }
 
-    return `license link`;
+    return link;
 };
 
 // TODO: Create a function that returns the license section of README
@@ -27,7 +53,7 @@ function renderLicenseSection(license) {
 
     return `## License
 
-Text explaining what the license covers`;
+This project is covered under the [${license}](${renderLicenseLink(license)}) license.`;
 };
 
 // TODO: Create a function that returns a table of contents
@@ -41,8 +67,7 @@ function renderTable() {
 function generateMarkdown(data) {
     return `# ${data.title}
 
-![GitHub License](${renderLicenseBadge(data.license)})
-${renderLicenseLink(data.license)}
+${renderLicenseBadge(data.license)}
 
 ## Description
 

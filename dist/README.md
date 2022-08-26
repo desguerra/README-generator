@@ -1,18 +1,14 @@
-# README generator
+# README File Generator
 
-![GitHub License](license badge
-)
-license link
-
+![GitHub License Badge](https://img.shields.io/badge/license-Apache%202.0-pink)
 
 ## Description
 
-description..............
+description......................
 
 ## Table of Contents
 
 Testing table of contents
-
 
 ## Installation
 
@@ -23,16 +19,15 @@ npm i
 
 ## Usage
 
-usage info
+usage...........................
 
 ## License
 
-Text explaining what the license covers
-
+This project is covered under the [APACHE 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
 
 ## Contributing
 
-please contribute
+Please do. It is much appreciated.
 
 ## Tests
 
@@ -43,5 +38,5 @@ npm tests
 
 ## Questions
 
-If you have any questions about this repository, please open an issue or contact me directly at [octocat](mailto:octocat). You can find more of my work at [desguerra](https://github.com/desguerra)
+If you have any questions about this repository, please open an issue or contact me directly at [test](mailto:test). You can find more of my work at [test](https://github.com/test) on GitHub.
 
