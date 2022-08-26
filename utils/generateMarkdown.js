@@ -5,8 +5,7 @@ function renderLicenseBadge(license) {
         return '';
     }
 
-    return `license badge
-`;
+    return `license badge`;
 };
 
 // TODO: Create a function that returns the license link
@@ -16,8 +15,7 @@ function renderLicenseLink(license) {
         return '';
     }
 
-    return `license link
-`;
+    return `license link`;
 };
 
 // TODO: Create a function that returns the license section of README
@@ -29,16 +27,13 @@ function renderLicenseSection(license) {
 
     return `## License
 
-Text explaining what the license covers
-`;
+Text explaining what the license covers`;
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// TODO: Create a function that returns a table of contents
 function renderTable() {
 
-    return `Testing table of contents
-`;
+    return `Testing table of contents`;
 
 };
 
@@ -46,7 +41,7 @@ function renderTable() {
 function generateMarkdown(data) {
     return `# ${data.title}
 
-${renderLicenseBadge(data.license)}
+![GitHub License](${renderLicenseBadge(data.license)})
 ${renderLicenseLink(data.license)}
 
 ## Description
@@ -59,7 +54,10 @@ ${renderTable()}
 
 ## Installation
 
+To install necessary dependencies, run the following command:
+\`\`\`
 ${data.installation}
+\`\`\`
 
 ## Usage
 
@@ -73,13 +71,14 @@ ${data.contributing}
 
 ## Tests
 
+To run tests, run the following command:
+\`\`\`
 ${data.tests}
+\`\`\`
 
 ## Questions
 
-Any questions?
-
-Please contact me: [through GitHub](https://github.com/${data.username}) or [through email at ${data.email}](mailto:${data.email})
+If you have any questions about this repository, please open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}) on GitHub.
 
 `;
 }

@@ -1,13 +1,13 @@
 # README generator
 
-license badge
-
+![GitHub License](license badge
+)
 license link
 
 
 ## Description
 
-readme generator
+description..............
 
 ## Table of Contents
 
@@ -16,11 +16,14 @@ Testing table of contents
 
 ## Installation
 
-installation instructions placeholder
+To install necessary dependencies, run the following command:
+```
+npm i
+```
 
 ## Usage
 
-usage info placeholder
+usage info
 
 ## License
 
@@ -29,15 +32,16 @@ Text explaining what the license covers
 
 ## Contributing
 
-contribution guidelines ph
+please contribute
 
 ## Tests
 
-test instructions ph
+To run tests, run the following command:
+```
+npm tests
+```
 
 ## Questions
 
-Any questions?
-
-Please contact me: [through GitHub](https://github.com/desguerra) or [through email at sample@github.io](mailto:sample@github.io)
+If you have any questions about this repository, please open an issue or contact me directly at [octocat](mailto:octocat). You can find more of my work at [desguerra](https://github.com/desguerra)
 
