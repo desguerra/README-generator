@@ -164,7 +164,7 @@ function init() {
 
     .then(data => {
 
-        console.log(data);
+        // console.log(data);
 
         console.log('Generating README...');
 

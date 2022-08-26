@@ -1,15 +1,16 @@
-# test
+# README Generator
 
-
+![GitHub License Badge](https://img.shields.io/badge/license-MIT-pink)
 
 ## Description
 
-test
+Short description of Node project...............
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -24,9 +25,11 @@ npm i
 
 ## Usage
 
-test
+Usage info.......................
 
+## License
 
+This project is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 
@@ -41,5 +44,5 @@ npm tests
 
 ## Questions
 
-If you have any questions about this repository, please open an issue or contact me directly at [test](mailto:test). You can find more of my work at [desguerra](https://github.com/desguerra) on GitHub.
+If you have any questions about this repository, please open an issue or contact me directly at [test@test.test](mailto:test@test.test). You can find more of my work at [desguerra](https://github.com/desguerra) on GitHub.
 

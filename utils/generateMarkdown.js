@@ -59,8 +59,6 @@ This project is covered under the [${license}](${renderLicenseLink(license)}) li
 // function that returns a table of contents
 function renderTable(license) {
 
-    // TODO!!!!!!!!!!
-
     if (license) {
         var list = ['installation', 'usage', 'license', 'contributing', 'tests', 'questions'];
     }
