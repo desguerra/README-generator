@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if (!license) {
@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
     return `![GitHub License Badge](${badge})`;
 };
 
-// TODO: Create a function that returns the license link
+// function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if (!license) {
@@ -44,7 +44,7 @@ function renderLicenseLink(license) {
     return link;
 };
 
-// TODO: Create a function that returns the license section of README
+// function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (!license) {
@@ -56,14 +56,30 @@ function renderLicenseSection(license) {
 This project is covered under the [${license}](${renderLicenseLink(license)}) license.`;
 };
 
-// TODO: Create a function that returns a table of contents
-function renderTable() {
+// function that returns a table of contents
+function renderTable(license) {
 
-    return `Testing table of contents`;
+    // TODO!!!!!!!!!!
+
+    if (license) {
+        var list = ['installation', 'usage', 'license', 'contributing', 'tests', 'questions'];
+    }
+    else {
+        var list = ['installation', 'usage', 'contributing', 'tests', 'questions'];
+    }
+
+    var table = '';
+
+    for (var i=0; i < list.length; i++) {
+        table += `* [${list[i].charAt(0).toUpperCase() + list[i].slice(1)}](#${list[i]})
+`;
+    };
+
+    return table;
 
 };
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
 
@@ -75,7 +91,7 @@ ${data.description}
 
 ## Table of Contents
 
-${renderTable()}
+${renderTable(data.license)}
 
 ## Installation
 
