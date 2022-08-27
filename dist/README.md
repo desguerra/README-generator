@@ -1,15 +1,16 @@
-# Title for README
+# README File Example Title
 
-
+![GitHub License Badge](https://img.shields.io/badge/license-MIT-pink)
 
 ## Description
 
-desc ...............
+short description ............................
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -24,22 +25,24 @@ npm i
 
 ## Usage
 
-placeholder text
+usage info ...........................
 
+## License
 
+This project is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 
-hello and thank you for contributing
+Please do. It is much appreciated.
 
 ## Tests
 
 To run tests, run the following command:
 ```
-npm test test test
+npm tests
 ```
 
 ## Questions
 
-If you have any questions about this repository, please open an issue or contact me directly at [testing@testing.testing](mailto:testing@testing.testing). You can find more of my work at [octocat](https://github.com/octocat) on GitHub.
+If you have any questions about this repository, please open an issue or contact me directly at [test@test.test](mailto:test@test.test). You can find more of my work at [octocat](https://github.com/octocat) on GitHub.
 
