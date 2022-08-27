@@ -1,4 +1,4 @@
-# Module #6 Challenge: Professional README Generator
+# Module #9 Challenge: Professional README Generator
 
 ## Description
 
