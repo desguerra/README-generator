@@ -1,16 +1,15 @@
-# README Generator
+# Title for README
 
-![GitHub License Badge](https://img.shields.io/badge/license-MIT-pink)
+
 
 ## Description
 
-Short description of Node project...............
+desc ...............
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -25,24 +24,22 @@ npm i
 
 ## Usage
 
-Usage info.......................
+placeholder text
 
-## License
 
-This project is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 
-Please do. It is much appreciated.
+hello and thank you for contributing
 
 ## Tests
 
 To run tests, run the following command:
 ```
-npm tests
+npm test test test
 ```
 
 ## Questions
 
-If you have any questions about this repository, please open an issue or contact me directly at [test@test.test](mailto:test@test.test). You can find more of my work at [desguerra](https://github.com/desguerra) on GitHub.
+If you have any questions about this repository, please open an issue or contact me directly at [testing@testing.testing](mailto:testing@testing.testing). You can find more of my work at [octocat](https://github.com/octocat) on GitHub.
 

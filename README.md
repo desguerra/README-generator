@@ -4,6 +4,8 @@
 
 This project is a **professional README generator** that uses **NodeJS** and **npm Inquirer**. After the user answers the series of prompts, a professional README.md file will we written to `dist > README.md`.
 
+[Click HERE to view the project demonstration video!](https://drive.google.com/file/d/1eXljv7MNuFghpQVkPEZsVxhPw_XidyCT/view)
+
 ## Table of Contents
 
 * [Installation](#installation)
